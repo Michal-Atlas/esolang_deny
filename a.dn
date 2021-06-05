@@ -1,0 +1,17 @@
+a = 54
+a = 54
+b = 101
+b = 111
+c = 39
+a = 30
+
+a - b c
+printf a
+printf b
+
+a + a a
+c = 107
+a = 1
+b + a c
+print b
+
