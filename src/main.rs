@@ -34,7 +34,7 @@ fn main() {
                     Some(Token::Intake) => {
                         lex.next();
                         let mut a = [0u8; 1];
-                        stdin().read(&mut a).unwrap();
+                        stdin().read_exact(&mut a).unwrap();
                         vc.set(var, a[0]);
                     }
                     Some(s) => {
