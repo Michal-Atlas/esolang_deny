@@ -2,7 +2,8 @@ use logos::Logos;
 
 #[derive(Debug, Logos, PartialEq)]
 pub(crate) enum Token {
-    #[regex(" ?= ?")]
+    #[token("=")]
+    #[token("assign")]
     Assign,
 
     #[token("<<")]
